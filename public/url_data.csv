@@ -1,0 +1,15 @@
+Urls
+http://goo.gl
+https://foo.com
+https://www.foo.com
+https://www.foo.com/
+https://www.foo.com/bar
+http://goo.gl/1,http://goo.gl/2
+http://goo.gl/1),http://goo.gl/(2)
+http://foo.com/.,http://foo.com/!,"http://foo.com/,"""
+http://firstround.com/review/thoughts-on-gender-and-radical-candor/?ct=t(How_Does_Your_Leadership_Team_Rate_12_3_2015)
+https://google.com
+http://www.cool.com.au
+http://www.cool.com.au/ersdfs
+http://www.cool.com.au/ersdfs?dfd=dfgd@s=1
+http://www.cool.com:81/index.html

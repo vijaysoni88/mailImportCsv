@@ -1,0 +1,14 @@
+<center><%= flash[:notice] %></center>
+<div>
+  <center>
+    <h4>Import Csv Data!</h4>
+    <%= form_tag attachment_import_path, multipart:true do %>
+      <div><%=  label_tag :Email %><br/>
+        <%= email_field_tag "contact[email]" , nil, required: true, email: true, pattern: "^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,4},*[\W]*)+$",multiple: true, placeholder: "your@mail.com" %></div>
+      <div><%=  label_tag :import_csv %><br/>
+      <%= file_field_tag :file, required: true%>
+    </div>
+      <%= submit_tag "Submit"%>
+    <% end %>
+  </center>
+</div>
